@@ -1,7 +1,7 @@
 const connection = require("../config/connection.js");
 
 module.exports = {
-  // get all burgers:
+  // gets all the burgers:
   getAllBurgers: (cb) => {
     connection.query("SELECT * FROM burgers", (err, data) => {
       if (err) {
@@ -12,7 +12,7 @@ module.exports = {
   },
 
   eatTheBurger: (id, cb) => {
-    //updates database when burger is devoured
+    //updates database
     connection.query(
       "UPDATE burgers SET devoured=true WHERE id = ?",
       [id],

@@ -1,5 +1,5 @@
 <div class="container-fluid mt-4">
-  <h1 style="text-align:center; font-family: Pangolin, cursive; font-size: 80px; color: #ffd32a">Eat-Da-Burger</h1>
+  <h1 style="text-align:center; font-family: Pangolin, cursive; font-size: 80px; color: #ffd32a">Eat a Burger</h1>
 
   <div class="row justify-content-center align-items-center">
     <div class="col-12 col-md-8 col-lg-6">
@@ -24,14 +24,14 @@
       <div class="card-transparent mt-4 border-0">
         <div class="card-body text-center" style="font-family: 'Raleway', sans-serif">
           <h4>{{this.burger_name}}</h4>
-          <button data-id={{this.id}} class="devourBtn btn btn-success">Devour This!</button>
+          <button data-id={{this.id}} class="devourBtn btn btn-success">Eat This!</button>
         </div>
       </div>
       {{/unless}}
       {{/each}}
     </div>
     <div class="col-6">
-      <h2 class="text-center" style="color: #1c724ad7; font-family: Pangolin, cursive">Devoured:</h2>
+      <h2 class="text-center" style="color: #1c724ad7; font-family: Pangolin, cursive">Eaten:</h2>
       {{#each burger_data}}
       {{#if this.devoured}}
 
