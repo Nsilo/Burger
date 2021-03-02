@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1",
+    "mysql": "^2.18.1"
+  },
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "simple burger app",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nsilo/Burger.git"
+  },
+  "author": "Nsilo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nsilo/Burger/issues"
+  },
+  "homepage": "https://github.com/Nsilo/Burger#readme"
+}
