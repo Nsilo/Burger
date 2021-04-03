@@ -1,25 +1,26 @@
 {
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.1",
-    "mysql": "^2.18.1"
-  },
-  "name": "burger",
+  "name": "burger_app",
   "version": "1.0.0",
-  "description": "simple burger app",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nsilo/Burger.git"
   },
-  "author": "Nsilo",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nsilo/Burger/issues"
   },
-  "homepage": "https://github.com/Nsilo/Burger#readme"
+  "homepage": "https://github.com/Nsilo/Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
 }
