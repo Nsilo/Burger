@@ -9,7 +9,8 @@
   "description": "simple burger app",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
