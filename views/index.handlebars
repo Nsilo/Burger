@@ -1,13 +1,13 @@
 <div class="container-fluid mt-4">
-  <h1 style="text-align:center; font-family: Pangolin, cursive; font-size: 80px; color: #ffd32a">Eat a Burger</h1>
+  <h1 style="text-align:center; font-family: New Tegomin, cursive; font-size: 80px; color: #6E2C00">Create a Burger</h1>
 
   <div class="row justify-content-center align-items-center">
     <div class="col-12 col-md-8 col-lg-6">
-      <p class="text-center mt-3" style="color: white; font-family: 'Raleway', sans-serif; font-size: 20px;">Enter a
+      <p class="text-center mt-3" style="color: black; font-family: 'Raleway', sans-serif; font-size: 20px;">Enter a
         burger you want to eat. Click the submit button!</p>
       <form id="submitBurger">
         <div class="form-group col-md-12">
-          <input id="submitBurgerText" type="text" class="form-control" placeholder="Enter burger of choice">
+          <input id="submitBurgerText" type="text" class="form-control" placeholder="Enter the burger of your dreams">
         </div>
         <div class="col text-center">
           <button type="submit" class="btn btn-primary mt-2" style="align-items-center">Submit</button>
@@ -18,7 +18,7 @@
   <br>
   <div class="row" style="margin-bottom: 20px;">
     <div class="col-6 text-center">
-      <h2 style="color: #6E2C00; font-family: Pangolin, cursive">Burgers to Eat:</h2>
+      <h2 style="color: #6E2C00; font-family: New Tegomin, cursive">Burgers to Eat:</h2>
       {{#each burger_data}}
       {{#unless this.devoured}}
       <div class="card-transparent mt-4 border-0">
@@ -31,7 +31,7 @@
       {{/each}}
     </div>
     <div class="col-6">
-      <h2 class="text-center" style="color: #1c724ad7; font-family: Pangolin, cursive">Eaten:</h2>
+      <h2 class="text-center" style="color: #1c724ad7; font-family: New Tegomin, cursive">Eaten Burgers:</h2>
       {{#each burger_data}}
       {{#if this.devoured}}
 
