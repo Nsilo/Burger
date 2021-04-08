@@ -2,7 +2,8 @@
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
-  This app creates a log of burgers using MySQL, Node, Express, Handlebars and an ORM. Create a burger on one side and click the button to eat it. once eaten its is moved tot he other side of the page and deleted
+  This app creates a log of burgers using MySQL, Node, Express, Handlebars and an ORM. Create a burger on one       side and click the button to eat it. once eaten its is moved tot he other side of the page and deleted
+  
   ---
   ## Table of Contents
   * [Installation](#installation)
