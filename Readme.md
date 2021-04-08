@@ -34,7 +34,7 @@
   This project is licensed under the MIT license.
 
   ## Contributing
-  undefined
+  Jivaka Payne
 
   ## Test
   To test application run the following command:
@@ -44,5 +44,5 @@
   ```
 
   ## Questions
-  If you have any questions about the repo, please contact me directly at undefined. You can find more of my work at [undefined](https://github.com/undefined/).
+  If you have any questions about the repo, please contact me directly at Jivakapayne93@gmail.com. You can find more of my work at [GitHub](https://github.com/Nsilo/).
   
